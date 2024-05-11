@@ -1,659 +1,635 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>DevFolio | Adrián </title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+    <meta charset="utf-8">
+    <title>DevFolio | Adrián Talavera Berrocal</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
 
-  <!-- Favicons -->
- 
-  <link href="img/code.ico" rel="icon">
+    <!-- Favicon -->
+    <link href="img/code.ico" rel="icon">
 
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
 
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
 
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="css/imagehover.min.css" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Proyect Name : DevFolio    
-  ======================================================= -->
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body id="page-top">
-
-  <!--/ Nav Star /-->
-  <nav class="navbar navbar-b navbar-trans navbar-expand-md fixed-top" id="mainNav">
-    <div class="container">
-      <a class="navbar-brand js-scroll" href="#page-top">DevFolio</a>
-      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarDefault"
-        aria-controls="navbarDefault" aria-expanded="false" aria-label="Toggle navigation">
-        <span></span>
-        <span></span>
-        <span></span>
-      </button>
-      <div class="navbar-collapse collapse justify-content-end" id="navbarDefault">
-        <ul class="navbar-nav">
-          <li class="nav-item">
-            <a class="nav-link js-scroll active" href="#home">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#about">Acerca de mí</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#service">Skills</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#work">Portafolio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#blog">Emprendimientos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll" href="#contact">Contacto</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <!--/ Nav End /-->
-
-  <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/header/fondo_principal-min.jpg)">
-    <div class="overlay-itro"></div>
-    <div class="intro-content display-table">
-      <div class="table-cell">
-        <div class="container">
-          <!--<p class="display-6 color-d">Hello, world!</p>-->
-          <h1 class="intro-title mb-4">Adrián Talavera</h1>
-          <p class="intro-subtitle"><span class="text-slider-items">Software Developer</span><strong class="text-slider"></strong></p>
-          <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Dev</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Review</a>
+                <a href="#blog" class="nav-item nav-link">Blog</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+            <a href="" class="btn btn-outline-primary d-none d-lg-block">Hire Me</a>
         </div>
-      </div>
-    </div>
-  </div>
-  <!--/ Intro Skew End /-->
+    </nav>
+    <!-- Navbar End -->
 
-  <section id="about" class="about-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="box-shadow-full">
-            <div  class="row contenedor_general">
-              <div class="col-md-6" >
-                <div class="row">
-                  <div class="col-sm-4 col-md-12">
-                    <div class="about-img">
-                      <img class="img_description" style="margin-left: auto;margin-right: auto;display:block;"  src="img/header/camisa_sin_fondo.png" width="55%" alt="">
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
                     </div>
-                  </div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/Perfil/foto_perfil_01.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Soy,</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Adrián Talavera</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Software Developer, QA Analyst, Full Stack Developer, Photographer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="Curriculum/Adrián Talavera Curriculum.pdf" download class="btn btn-outline-light mr-5">Download CV</a>
+                        <!-- <button type="button" class="btn-play" data-toggle="modal"
+                            data-src="https://www.youtube.com/embed/DWRcNpR6Kdc" data-target="#videoModal">
+                            <span></span>
+                        </button>
+                        <h5 class="font-weight-normal text-white m-0 ml-4 d-none d-sm-block">Play Video</h5> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h3 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h3>
+                <h1 class="position-absolute text-uppercase text-primary">About me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-5">
+                    <img class="img-fluid rounded w-100" src="img/Perfil/foto_perfil_02.png" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Full Stack Software Developer </h3>
+                    <p>Desarollador de Software & QA con más de 2 años de experiencia sólida en el diseño, desarrollo y aseguramiento de la cálidad de aplicaciones webs y de escritorio, empleando tecnologías de Microsoft.</p>
+                    <p>Mi conocimiento comprende en el front-end tecnologías como Angular, Javascriopt, Jquery, HTML y CSS, y en  el Backend frameworks robustos como .NET y el ORM Entity Framework.                                        </p>
+                    <p>Además cuento con habilidades sólidas en SQL Server para la gestión eficiente de base de datos. Asimismo, cuento con experiencia en el sector financiero implementando soluciones prácticas a requerimientos complejos de manera efectiva en Windows Forms (C#).</p>
+                    <p>Me apasiona mantenerme actualizado con las ultimas tendencias y patrones de diseño en el mundo de desarrollo de software. Actualmente me siento especialmente atraido por el campo de la Inteligencia Artificial y su potencial para revolucionar la industria del Software.</p>
+                   
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-Developmentary">Adrián Talavera</span></h6></div>                                                
+                        <div class="col-sm-6 py-2"><h6>Experience: <span class="text-Developmentary">2 Años</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Phone: <span class="text-Developmentary">+51 954 504 201 </span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-Developmentary">renato210596@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-Developmentary">Comas, Lima - Perú</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-Developmentary">Available</span></h6></div>
+                    </div>
+                    <!-- <a href="" class="btn btn-outline-primary mr-4">Hire Me</a>
+                    <a href="" class="btn btn-outline-primary">Learn More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    <!-- Qualification Start -->
+    <div class="container-fluid py-5" id="qualification">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+            </div>
+            <div class="row" >
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Education</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">                        
+                        
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Desarrollo de Software</h5>
+                            <p class="mb-2"><strong>SENATI </strong> | <small>2019 - 2022</small></p>
+                            <p>Estudio y dominio de la programación en diferentes lenguajes de programación, diseño de aplicaciones, base de datos y arquitectura de software.</p>
+                        </div>
+
+                        <!-- <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Software Engineering</h5>
+                            <p class="mb-2"><strong>Universidad Privada del Norte</strong> | <small>2023 - Actualidad</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div>
+                       
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">High School</h5>
+                            <p class="mb-2"><strong>Ramón Castilla</strong> | <small>2000 - 2050</small></p>
+                            <p>Tempor eos dolore amet tempor dolor tempor. Dolore ea magna sit amet dolor eirmod. Eos ipsum est tempor dolor. Clita lorem kasd sed ea lorem diam ea lorem eirmod duo sit ipsum stet lorem diam</p>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Software Developer Full Stack</h5>
+                            <p class="mb-2"><strong>SOL TECHNOLOGIES</strong> | <small>2022 - Actualidad</small></p>
+                            <p>Responsable del análisis de requerimientos, implementación y migración de sistemas de gestión. Encargado del aseguramiento de la calidad del software y certificación de requerimientos previo a la puesta en producción.</p>
+                        </div>
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <h5 class="font-weight-bold mb-1">Analyst Programmer</h5>
+                            <p class="mb-2"><strong>MYPER SAC</strong> | <small>2021 - 2022</small></p>
+                            <p>Análisis y desarrollo de mejoras solicitadas por los diferentes clientes para las aplicaciones, incluyendo la implementación de nuevas funcionalidades.</p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+    <!-- Skill Start -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                
+                <div class="col-md-6">
+
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">.NET</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">SQL Server</h6>
+                            <h6 class="font-weight-bold">80%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Windows Forms</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                                
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Angular</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>        
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">TypeScript</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>                   
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">JavaScript</h6>
+                            <h6 class="font-weight-bold">95%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Abilities</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Conocimientos</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Requirements Analysis</h4>
+                    </div>
+                    <p>Análisis y recopilación de necesidades y expectativas de los usuarios. Identificar funcionalidades, caracteristicas y restricciones del sistema a desarrollar. Definición precisa del alcance y entregables del proyecto de software.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>                
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Development</h4>
+                    </div>
+                    <p>Desarrollo de sitios web a medida utilizando las últimas tecnologías y buenas prácticas. Integración de funcionalidades personalizadas según tus necesidades. Sitios web seguros, escalables y optimizados.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-check service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Quality</h4>
+                    </div>
+                    <p>Experiencia en el diseño de casos de prueba, ejecución y reporte de defectos. Enfoque en garantizar el cumplimiento de los requisitos del software  y la calidad funcional del producto antes de su entrega.</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>                
+                <!-- <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-android service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Design</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Apps Development</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">SEO</h4>
+                    </div>
+                    <p>Justo sit justo eos amet tempor amet clita amet ipsum eos elitr. Amet lorem lorem lorem est amet labore eirmod erat clita</p>
+                    <a class="border-bottom border-primary text-decoration-none" href="">Read More</a>
+                </div> -->
+                
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".Design">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".Development">Development</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".QualityCertification">Quality Certification</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">  
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Design">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/Dev-Porfalio_Personal.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/Dev-Porfalio_Personal.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>             
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/DEV-Administrador_Tarjetas.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/DEV-Administrador_Tarjetas.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item QualityCertification">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/QA/QA-Conciliacion_Pagos.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/QA/QA-Conciliacion_Pagos.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 
-              </div>
-              <div class="col-md-6">
-                <div class="about-me pt-4 pt-md-0 mt-3 contenedor_descripcion">
-                  <div class="title-box-2">
-                    <h5 class="title-left description_title">
-                      Acerca de mí
-                    </h5>
-                  </div>
-                  <p class="lead">
-                    Hola, ¡ Bienvenido/a ! <br> 
-                    Mi nombre es Adrían, soy técnico egresado de la carrera de Desarrollo de Software en SENATI.
-                  </p>
-                  <p class="lead">
-                    Como desarrollador junior me gusta y apasiona todo lo relacionado con la tecnología. Tengo un interés especial por el desarrollo de aplicaciones de excelente calidad con las mejores tecnologías emergentes.                     
-                  </p>                
-                  <p class="lead">
-                    Aficionado a los videojuegos.
-                  </p>
-                  <!-- <a href="docs/Curriculum_AdrianTalavera_compressed.pdf" class="btn btn-success" download="">Descargar CV</a> -->
-                  <a href="docs/CurriculumVitae_AdrianRenato.pdf" class="btn btn-success" download="">Descargar CV</a>
-                  
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/DEV-Administrador_Videojuegos.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/DEV-Administrador_Videojuegos.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-<br><br>
-  <!--/ Section Services Star /-->
-  <section id="service" class="services-mf route">
-    <div class="container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item QualityCertification">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/QA/QA-Model_No_Bancarizado.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/QA/QA-Model_No_Bancarizado.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/DEV-Gestor_Eventos_Sociales.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/DEV-Gestor_Eventos_Sociales.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item QualityCertification">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/QA/QA-Nuevo_Credito_Rural.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/QA/QA-Nuevo_Credito_Rural.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
 
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Skills
-            </h3>
-            <div class="line-mf"></div><br>
-            <p class="subtitle-a">
-              Conocimientos técnicos y habilidades
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/DEV-Simulador_Pagos.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/DEV-Simulador_Pagos.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item QualityCertification">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/QA/QA-Seguro_Multirriesgo.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/QA/QA-Seguro_Multirriesgo.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item Development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/Portafolio/DEV/DEV-Mujer_Luchadora.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/Portafolio/DEV/DEV-Mujer_Luchadora.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 30px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <!-- <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Clients Say</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-1.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-2.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Dolor eirmod diam stet kasd sed. Aliqu rebum est eos. Rebum elitr dolore et eos labore, stet justo sed est sed. Diam sed sed dolor stet accusam amet eirmod eos, labore diam clita</h4>
+                            <img class="img-fluid rounded-circle mx-auto mb-3" src="img/testimonial-3.jpg" style="width: 80px; height: 80px;">
+                            <h5 class="font-weight-bold m-0">Client Name</h5>
+                            <span>Profession</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+    <!-- Testimonial End -->
+
+    <br><br>
+   
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Review</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Intereses</h1>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/Intereses/Intereses_IA.webp" alt="">                        
+                    </div>
+                    <h5>Inteligencia Artificial</h5>
+                    <p class="font-weight-medium mb-4">Me apasiona la inteligencia artificial y su impacto transformador en el mundo a través de diversas aplicaciones. Encuentro fascinante su capacidad para cambiar la forma en que vivimos y trabajamos.</p>
+                    <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4">
+                        <img class="img-fluid rounded w-100" src="img/Intereses/Intereses_Banca.jpg" alt="">                        
+                    </div>
+                    <h5>Soluciones Tecnológicas Financieras</h5>
+                    <p class="font-weight-medium mb-4">Interesado en el desarrollo de aplicaciones para el sector financiero, enfocado en programación segura, integración de sistemas financieros, aseguramiento de su calidad y cumplimiento normativo.</p>
+                    <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+                </div>
+                <div class="col-lg-4 mb-5">
+                    <div class="position-relative mb-4 ">
+                        <img  class="img-fluid rounded w-100" src="img/Intereses/Intereses_BigData.jpg"  alt="">                        
+                    </div>
+                    <h5>Big Data</h5>
+                    <p class="font-weight-medium mb-4">Apasionado por el área de Big Data, con interés en el análisis de grandes volúmenes de datos, implementación de soluciones escalables, diseño de arquitecturas de datos eficientes y aplicación de técnicas avanzadas de análisis para la toma de decisiones informadas.</p>
+                    <!-- <a class="btn btn-sm btn-outline-primary py-2" href="">Read More</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+
+    <!-- Contact Start -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <!-- <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a> -->
+                <a class="btn btn-light btn-social  mr-2" target="_blank" href="https://www.facebook.com/andresgerardo.ramosfernandez.7"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" target="_blank" href="https://www.linkedin.com/in/adri%C3%A1n-renato-talavera-berrocal-7b1649186/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" target="_blank" href="https://www.instagram.com/adriantalavera_/"><i class="fab fa-instagram"></i></a>
+            </div>
+            <!-- <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div> -->
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Domain Name</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="https://htmlcodex.com">Adrián Talavera</a>
             </p>
-            
-            <br><br>
-            <h5 class="title-left">
-              Front-end
-            </h5>
-            <br>      
-          </div>
         </div>
-      </div>
-
-      <div class="row">
-
-        <div class="col-md-4">    
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><img style="margin-bottom: 10px;" width="63%" src="img/svg/logo-html.svg" alt=""></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">HTML5</h2>
-              <p class="s-description text-center">
-                Lenguaje markup usado para estructurar y presentar el contenido para la web. 
-              </p>
-            </div>
-          </div>
-        </div>
-        
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><img style="margin-bottom: 20px;" width="58%" src="img/svg/logo-javascript.svg" alt=""></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">JavaScript</h2>
-              <p class="s-description text-center">
-                Lenguaje de programación interpretado dialecto del estándar ECMAScript.
-              </p>
-            </div>
-          </div>
-        </div>
-
-
-        <div class="col-md-4">
-          <div class="service-box">
-            <div class="service-ico">
-              <span class="ico-circle"><img style="margin-bottom: 10px;" width="63%" src="img/svg/logo-css.svg" alt=""></i></span>
-            </div>
-            <div class="service-content">
-              <h2 class="s-title">CSS3</h2>
-              <p class="s-description text-center">
-                Lenguaje de marcado que se emplea para dar estilo a un sitio web. 
-              </p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-      <br><br><br>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">              
-              <br>
-              <h5 class="title-left">
-                Back-end
-              </h5>
-              
-            </div>
-          </div>
-        </div>
-  
-        <div class="row">
-          <div class="col-md-4">    
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 28px;" width="53%" src="img/svg/log-.net.svg" alt=""></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">.NET Core</h2>
-                <p class="s-description text-center">
-                  Plataforma de desarrollo de Microsoft, multiplataforma y de alto rendimiento.
-                </p>
-              </div>
-            </div>
-          </div>                  
-  
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 20px;" width="55%" src="img/svg/logo-c-sharp.svg" alt=""></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">C Sharp</h2>
-                <p class="s-description text-center">
-                  Lenguaje multiparadigma desarrollado por Microsoft.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 20px;" width="65%" src="img/svg/logo-sql.svg" alt=""></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">SQL Server</h2>
-                <p class="s-description text-center">
-                  Sistema de gestión de base de datos relacional, desarrollado por Microsoft.
-                </p>
-              </div>
-            </div>
-          </div>
-
-      </div>
-
-      <br><br><br>
-      
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="title-box text-center">              
-              <br>
-              <h5 class="title-left">
-                Tecnologías de Interés
-              </h5>
-              
-            </div>
-          </div>
-        </div>
-  
-        <div class="row">
-
-          <div class="col-md-4">    
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 22px;margin-right: 10px;" width="60%" src="img/svg/unity-69.svg" alt=""></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Unity</h2>
-                <p class="s-description text-center">
-                  Herramienta que permite crear videojuegos para diversas plataformas (PC, videoconsolas, móviles, etc.).
-                </p>
-              </div>
-            </div>
-          </div>
-          
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 13px;" width="55%" src="img/svg/xamarin.svg" alt=""></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Xamarin</h2>
-                <p class="s-description text-center">
-                  Marco de trabajo para diferentes plataformas para el desarrollo de aplicaciones móviles.
-                </p>
-              </div>
-            </div>
-          </div>
-  
-  
-          <div class="col-md-4">
-            <div class="service-box">
-              <div class="service-ico">
-                <span class="ico-circle"><img style="margin-bottom: 20px;" width="58%" src="img/svg/IA.svg" alt=""></i></span>
-              </div>
-              <div class="service-content">
-                <h2 class="s-title">Inteligencia Artificial</h2>
-                <p class="s-description text-center">
-                  Rama de estudio de la informática que busca formas de imitar el razonamiento humano en las máquinas.
-                </p>
-              </div>
-            </div>
-          </div>
-      </div>
-      <br><br><br>
-      <br><br>  
     </div>
-  </section>
-  <!--/ Section Services End /-->
-  
-  <div class="section-counter paralax-mf bg-image" style="background-image: url(img/externo/edificio.jpg)">
-    <div class="counter-num">              
-      <h1 style="color: rgb(255, 255, 255);"><center>HABILIDADES</center></h1>
-    </div>
-    <br>
-    <br><br><br>
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-checkmark-round"></i></span>
-            </div>
-            <div class="counter-num">              
-              <span class="counter-text">Proactivo</span>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-calendar-outline"></i></span>
-            </div>
-            <div class="counter-num">              
-              <span class="counter-text">Responsable</span>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ios-people"></i></span>
-            </div>
-            <div class="counter-num">              
-              <span class="counter-text">Trabajo en equipo</span>
-              <br>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-3 col-lg-3">
-          <div class="counter-box pt-4 pt-md-0">
-            <div class="counter-ico">
-              <span class="ico-circle"><i class="ion-ribbon-a"></i></span>
-            </div>
-            <div class="counter-num">              
-              <span class="counter-text">Orientado a Objetivos</span>
-              <br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br><br>
+    <!-- Footer End -->
 
-  <!--/ Section Portfolio Star /-->
-  <section id="work" class="portfolio-mf sect-pt4 route">
-    
-    <div class="container">
-      
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Portafolio
-            </h3>             
-            <div class="line-mf"></div>
-            <br>
-          </div>
-        </div>
-      </div>
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
 
-      <section id="portafolio" class="container">
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
 
-        <div class="row">
-          
-          
-          <div class="col-md-4">
-            <div class="work-box" >
-              <figure class = "imghvr-slide-up" >
-                <img style="width: 140%;" src = "img/proyectos/SistemaTickets.png" >                
-              </figure >
-              
-              <div class="descripcion">
-                <br><h2 class="w-title">Sistema de Tickets </h2> 
 
-                <p class="lea">Sistema que permite la gestión de tickets en los proyectos en desarrollo por JucPanel.</p>
-                <img src="img/svg/logo-github.svg" alt="">                
-                <a target="_blank" href="https://gitlab.com/web244/jucpanel/-/tree/main/TicketsWeb">Code </a><span class="w-date" >/ 12 Dic. 2021</span>             
-              </div>
-            </div>
-          </div>
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
 
-          <div class="col-md-4">
-            <div class="work-box" >
-              <figure class = "imghvr-slide-up" >
-                <img style="width: 100%;" src = "img/proyectos/GestionEventos.png" >                
-              </figure >
-              
-              <div class="descripcion">
-                <br><h2 class="w-title"> Gestión de Eventos </h2> 
-                <p class="lea">Aplicación para poder administrar eventos sociales y asimismo permite la opción generar PDF para los contratos.</p>
-                <img src="img/svg/logo-github.svg" alt=""><a target="_blank" href="https://github.com/AdrianTB/RegistroTarjetas">Code  </a><span class="w-date" >/ 10 Nov. 2020</span>
-              </div>
-            </div>
-          </div>
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
 
-          <div class="col-md-4">
-            <div class="work-box" >
-              <figure class = "imghvr-slide-up" >
-                <img src = "img/proyectos/AdminstracionJuegos.png" >                
-              </figure >
-              
-              <div class="descripcion">
-                <br><h2 class="w-title">Administracion Juegos</h2> 
-                <p class="lea">Pagina Web 'single page' que permite gesionar juegos utilizando una api rest.</p>
-                <img src="img/svg/logo-github.svg" alt=""><a target="_blank" href="https://github.com/AdrianTB/crud_games">Code  </a><span class="w-date" >/ 30 Dic. 2020</span>
-              </div>
-            </div>
-          </div>
-
-               
-          
-        </div>  
-        <br><br><br><br>
-        
-      </section>
-      
-    </div>
-  </section>
-  <!--/ Section Portfolio End /-->
-
-  <!--/ Section Testimonials Star /-->
-  <div class="testimonials paralax-mf bg-image" style="background-image: url(img/fondo_mensajes.jpg); filter: grayscale(0.3);">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-12">
-          <div id="testimonial-mf" class="owl-carousel owl-theme">
-            <div class="testimonial-box">              
-              
-              <div class="content-test">
-                <p class="lead">
-                  «El éxito es ir de fracaso en fracaso sin perder el entusiasmo.». <br>– Winston Churchill
-                </p>
-                <br>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-            </div>
-            <div class="testimonial-box">
-              <div class="content-test">
-                <p class="lead">
-                  «Algunas personas quieren que algo ocurra, otras sueñan con que pase, otras hacen que suceda». <br>– Michael Jordan
-                </p>
-                <br>
-                <span class="comit"><i class="fa fa-quote-right"></i></span>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br><br><br>
-  <!--/ Section Blog Star /-->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              En Proceso
-            </h3>
-            <p class="subtitle-a">
-              Algunos proyectos en desarrollo
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <br>
-      <div class="row">
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/emprendimientos/crudAngularLaravel.PNG" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">API & WEB</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">API</a></h3>
-              <p class="card-description">
-                Proyecto web de gestión de peliculas en desarrollo creado con Angular y Laravel.               
-              </p>
-            </div>           
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/emprendimientos/nickie.PNG" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Design</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">M&S Producciones</a></h3>
-              <p class="card-description">
-                Sitio web prototipo para productora audivisual. 
-              </p>
-            </div>          
-          </div>
-        </div>
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="img/emprendimientos/laravelpaypal.PNG" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">App Web</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">Integrar pagos con paypal</a></h3>
-              <p class="card-description">
-                Proyecto web que permite hacer pagos en linea  que soporta transferencias de dinero.
-              </p>
-            </div>            
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--/ Section Blog End /-->
-
-  <!--/ Section Contact-Footer Star /-->
-  <section class="paralax-mf footer-paralax bg-image sect-mt4 route" style="background-image: url(img/fondo_contacto.jpg)">
-    <div class="overlay-mf"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="contact-mf">
-            <div id="contact" class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="title-box-2">
-                    <h5 class="title-left">
-                      Contáctame
-                    </h5>
-                  </div>                  
-                </div>
-                <div class="col-md-12" >
-                  
-                  <div class="more-info">
-                    <p class="lead">
-                      Siempre estoy interesado en nuevos proyectos y colaboraciones, si tienes alguno en mente o simplemente quieres hablar no dudes en escribirme o enviarme un email.
-                    </p>
-                    <hr>
-                    <ul class="list-ico">
-                      <li ><span class="ion-ios-location"></span><em class="_contact">Comas, Lima - Perú</em></li>
-                      <li><span class="ion-ios-telephone"></span><em>(+51) 927 844 808</em></li>
-                      <li><span class="ion-email"></span><em>renato210596@gmail.com</em></li>
-                    </ul>
-                  </div>
-                  <div class="socials">
-                    <ul>
-                      <li><a href="https://www.linkedin.com/in/adri%C3%A1n-renato-talavera-berrocal-7b1649186/" target="_blank"><span class="ico-circle"><i class="ion-social-linkedin"></i></span></a></li>
-                      <li><a href="https://github.com/AdrianTB" target="_blank"><span class="ico-circle"><i class="ion-social-github"></i></span></a></li>
-                      <li><a href="https://wa.me/+51927844808" target="_blank"><span class="ico-circle"><i class="ion-social-whatsapp"></i></span></a></li>                      
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">&copy; Copyright <strong>DevFolio</strong>. All Rights Reserved</p>
-              <div class="credits">
-                <!--
-                  All the links in the footer should remain intact.
-                  You can delete the links only if you purchased the pro version.
-                  Licensing information: https://bootstrapmade.com/license/
-                  Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-                -->
-                <h5 style="color: rgb(10, 8, 8);font-weight: 500;">Designed by <a target="_blank" href="https://www.linkedin.com/in/adri%C3%A1n-renato-talavera-berrocal-7b1649186/">Adrián</a></h5>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-  </section>
-  <!--/ Section Contact-footer End /-->
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <div id="preloader"></div>
-
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/popper/popper.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/counterup/jquery.waypoints.min.js"></script>
-  <script src="lib/counterup/jquery.counterup.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <script src="lib/typed/typed.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
-
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
 </body>
+
 </html>
